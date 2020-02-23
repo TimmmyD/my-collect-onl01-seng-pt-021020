@@ -4,7 +4,6 @@ def my_collect(collection)
     yield(collection[index])
     index += 1 
   end 
-  collection
 end 
   
 
