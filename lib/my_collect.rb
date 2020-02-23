@@ -1,7 +1,8 @@
 def my_collect(collection)
   index = 0 
   while index < collection.length do 
-    collection[index] = yield(collection[index])
+    value = yield(collection[index])
+    puts value 
     index += 1 
   end 
 end 
